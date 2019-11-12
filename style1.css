@@ -1,0 +1,136 @@
+h1{
+    font-family: 'Mansalva', cursive;
+}
+
+h2{
+    font-family: 'Teko', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.trait{
+    margin: 100px 200px 100px 200px;
+}
+
+/*ENTETE*/
+header{
+    background-image: url("img/gi1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 0 auto;
+}
+
+.ml-45{
+    margin-left: 45%;
+}
+
+
+/*BARNAV*/
+.bg-marron{
+    background: #231502;
+}
+
+.active{
+    color: orchid;
+}
+
+
+
+/*ACCUEIL*/
+em{
+    font-size: 1.5em;
+}
+
+strong{
+    color: #a77c38;
+    text-shadow: 2px 2px 2px gray;
+    font-size: 2em;
+    font-family: 'Mansalva', cursive;
+}
+
+.titre_accu{
+    font-size: 5em;
+}
+
+
+
+/*HISTOIRE*/
+
+#a2013, #a2015, #a2017, #a2019, #h4_1, #h4_3, #h4_5, #h4_7, #p_1, #p_3, #p_5, #p_7{
+    text-align: right;
+    padding-right: 30px;
+    border-right: 1px dashed black;
+}
+
+#a2014, #a2016, #a2018, #a2020, #h4_2, #h4_4, #h4_6, #h4_8,#p_2, #p_4, #p_6, #p_8{
+    text-align: left;
+    padding-left: 30px;
+    border-left: 1px dashed black;
+}
+
+/*VENTE*/
+#img1{
+    background-image: url("img/vetement.jpg");
+    background-size: 200px;
+    width: 200px;
+    height: 130px;
+    margin-top: 30px;
+}
+#img1:hover{
+    background-image: url("img/pull.jpg");
+} 
+
+#tasse{
+    background-image: url("img/mug.jpg");
+    background-size: 200px;
+    width: 200px;
+    height: 130px;
+    margin-top: 30px;
+}
+
+#tasse:hover{
+    background-image: url("img/mug1.jpg")
+}
+
+#bois{
+    background-image: url("img/bois.jpg");
+    background-size: 200px;
+    width: 200px;
+    height: 130px;
+    margin-top: 30px;
+}
+
+#bois:hover{
+    background-image: url("img/cheval1.jpg");
+}
+
+/*CONTACT*/
+iframe{
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.bg-clair{
+    background: #ffebc6;
+}
+
+@media all and (max-width: 1024px){
+    .titre_accu{
+        font-size: 2em;
+    }
+
+    .pa_accu{
+        font-size: 1.5em;
+    }
+
+    em{
+        color: blanchedalmond;
+    }
+}
